@@ -1,0 +1,17 @@
+var pictures=["cute.PNG","mad.PNG","surprised.PNG"]
+
+$(document).ready(function(){
+    $("button").click(run());
+
+});
+
+var count = 0;
+function run(){
+    count++;
+    var random = Math.ceil(Math.random()*2);
+    
+    
+
+
+
+}
